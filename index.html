@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+
+    <link rel="manifest" href="/manifest.json" />
+    <meta name="theme-color" content="white" />
+    <link rel="apple-touch-icon" href="images/pwa-icon-256.png" />
+
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora IMC</title>
+    <link rel="stylesheet" href="css/index.css">
+    <script src="js/index.js"></script>
+</head>
+<body class="fullscreen">
+    <div class="container">
+        <h1 class="title">Calculadora de IMC ✔</h1>
+       
+       <label for="altura">nome do cidadão</label><br/>
+       <input type="text" name="nome" id="nome"><br/>
+       <label for="altura">idade do cidadão</label><br/>
+       <input type="date" name="idade" id="idade"><br/>
+       <label for="altura">sexo do cidadão</label><br/>
+       <input type="text" name="sexo" id="sexo"><br/>
+
+       <label for="altura">altura do cidadão</label><br/>
+       <input type="number" name="altura" id="altura"><br/>
+       <label for="altura">peso do cidadão</label><br/>
+       <input type="number" name="peso" id="peso"><br/>
+       
+       <button value="calcular" onclick=calculadoraIMC()>CALCULE</button><br/>
+
+       <p id="resposta1"></p>
+       <p id="resposta2"></p>
+       <p id="resposta3"></p>
+      
+       
+    </div>
+  
+</body>
+</html>
