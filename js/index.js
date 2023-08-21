@@ -1,6 +1,6 @@
 window.onload=()=>{
     "use strick"
-    if ("ServiceWorker" in navigator) {
+    if ("serviceWorker" in navigator) {
         navigator.serviceWorker.register("./sw.js")
     }
 }
